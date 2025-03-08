@@ -19,6 +19,6 @@ WebView2WDLPackage.twinpack - WebView2 twinBASIC control for use inside tB.
 
 WebView2SamplesWDL.twinproj - twinBASIC IDE `Sample #1a: WebView2 Samples`, with WebView2WDLPackage replacing the native tB package.
 
-**WebView2Control.twinproj** - The wrapper UserControl/ActiveX control project file hosting an instance of WebView2WDLPackage. This has its own copy; you don't need any of the other files unless you want to edit the control source.
-
+**WebView2Control.twinproj** - The wrapper UserControl/ActiveX control project file hosting an instance of WebView2WDLPackage. This has its own copy; you don't need any of the other files unless you want to edit the control source.\
+NOTE: For beta testing, it's currently named ZWebView2Control/ZucWebView2; the initial stable release will remove the leading Z and use different GUIDs to make it an entirely different control.
 
